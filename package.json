@@ -1,0 +1,20 @@
+{
+  "name": "javascript_playground_2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewFacesV2/javascript_playground_2022.git"
+  },
+  "keywords": [],
+  "author": "Iain Henderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewFacesV2/javascript_playground_2022/issues"
+  },
+  "homepage": "https://github.com/NewFacesV2/javascript_playground_2022#readme"
+}
