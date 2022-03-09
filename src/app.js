@@ -3,6 +3,7 @@ console.log("Hello world")
 
 // NOTE:
 /*
+Create "src" foldr
 Create app.js within the "src" folder
 Change directory into src
 Make changes to app.js
