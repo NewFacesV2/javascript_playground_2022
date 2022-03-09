@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NewFacesV2/javascript_playground_2022/issues"
   },
-  "homepage": "https://github.com/NewFacesV2/javascript_playground_2022#readme"
+  "homepage": "https://github.com/NewFacesV2/javascript_playground_2022#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
