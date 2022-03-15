@@ -39,4 +39,18 @@ function addThreeNumbers(num1, num2, num3) {
 
 console.log(addThreeNumbers(100,200,300))
 
-//var num1 = 2
+// Javascript loops
+for(var i=0; i< 10; i++){
+    console.log(i)
+}
+
+//JavaScript if statements
+var number = 9
+if (number === 10) {
+    console.log(answer = " + number")
+} else {
+    console.log("error")
+}
+
+
+
