@@ -245,15 +245,15 @@
 
 // console.log(sum1)
 
-function fourNumbers(num1, num2, num3, num4) {
-    let result = num1 + num2 + num3 + num4
-    return `the sum of 4 numbers is ${result}`
-}
+// function fourNumbers(num1, num2, num3, num4) {
+//     let result = num1 + num2 + num3 + num4
+//     return `the sum of 4 numbers is ${result}`
+// }
 
-console.log(fourNumbers(1,2,3,4))
+// console.log(fourNumbers(1,2,3,4))
 
-function test1() {}
+// function test1() {}
 
-console.log(test1())
+// console.log(test1())
 
 
