@@ -33,3 +33,5 @@ function createArray(a, b) {
 
 console.log(createArray(1, 2))
 
+
+
