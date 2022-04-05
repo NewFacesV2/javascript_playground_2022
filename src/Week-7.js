@@ -22,6 +22,14 @@
 
 //Iain test comment
 
+//give 2 arguments, return an array which contains these two arguments
+
+function createArray(a, b) {
+    var arr = [a,b]
+
+    return arr
+}
 
 
+console.log(createArray(1, 2))
 
