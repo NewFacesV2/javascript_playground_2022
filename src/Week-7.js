@@ -1,11 +1,6 @@
-<<<<<<< HEAD
+
 //hello its me
 
-
-
-
-
-=======
 //Iain and Katie Pair Coding
 //hello its me
 
@@ -20,8 +15,11 @@
 
 
 
-function getArrElement(a) {
-    return arr[0]
-}
-console.log(getArrElement([1,2,3,4]))
+// function getArrElement(a) {
+//     return arr[0]
+// }
+// console.log(getArrElement([1,2,3,4]))
+
+//Iain test comment
+
 
