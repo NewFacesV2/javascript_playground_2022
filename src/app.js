@@ -215,51 +215,71 @@ const todos = [
 //   }
 
 //   function addNumbs(num1 = 2, num2 = 2) {   //Basic function adding 2 numbers and returning the total to addnumbs. then when we console log addnumbs, we get the stored returned value
-//       return num1 + num2;                  // You dont have to put numbers in the parameters for the function, but you can.
-//                                           //If you just use num1, num2, you will have to put the numbers inside the console.log(addnumbs())
-//   }
+// //       return num1 + num2;                  // You dont have to put numbers in the parameters for the function, but you can.
+// //                                           //If you just use num1, num2, you will have to put the numbers inside the console.log(addnumbs())
+// //   }
   
-//   console.log(addNumbs());
+// //   console.log(addNumbs());
 
 
 
 
-//   const addNumbs = (num1, num2) => num1 + num2   // This is adding numbers and console logging the result more simply
+// //   const addNumbs = (num1, num2) => num1 + num2   // This is adding numbers and console logging the result more simply
   
 
-//  console.log(addNumbs(5, 5))
+// //  console.log(addNumbs(5, 5))
 
 
-//  const multiplythis = (num1, num2) => num1 * num2
+// //  const multiplythis = (num1, num2) => num1 * num2
 
-//  console.log(multiplythis(5, 5))
+// //  console.log(multiplythis(5, 5))
 
-// OBJECT ORIENTED PROGRAMMING //NOTE IMPORTANT
+// // OBJECT ORIENTED PROGRAMMING //NOTE IMPORTANT
 
-function Person(firstName, lastName, dob) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.dob = new Date(dob);
-                                                                             //this is object oriented programming in ES5.
-}
 
-Person.prototype.getBirthYear = function() {
-    return this.dob.getFullYear();
-}
+// //Class
 
-Person.prototype.getFullName = function() {
-    return `${this.firstName} ${this.lastName}`
-}
+// class Person {
+//     constructor(firstName, lastName, dob) {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//         this.dob = new Date(dob);
 
-//Istantiate Object
+//     }
 
-const person1 = new Person('john', 'doe', '4-3-1980');
-const person2 = new Person('Mary', 'Jane', '3-5-1970')
+//     getBirthYear() {
+        // return this.dob.getFullYear();
+//     }
 
-console.log(person2.getFullName());
-console.log(person1);
+//     getFullName() {
+//         return `${this.firstName} ${this.lastName}`;
+//     }
+// }
 
+// //Istantiate Object
+
+// const person1 = new Person('john', 'doe', '4-3-1980');
+// const person2 = new Person('Mary', 'Jane', '3-5-1970')
+
+// console.log(person2.getFullName());
+// console.log(person1);
+
+// class Date {
+//     constructor(Day, Month, Year) {
+//     this.Day = Day;
+//     this.Month = Month;
+//     this.Year = Year;
+
+// }
  
+// getEntireYear() {
+//     return this.Year.getFullYear();
+// }
+// }
+
+// const date1 = new Date(05, 04, 1996)
+
+// console.log(date1)
 
 
 
