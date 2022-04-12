@@ -357,12 +357,174 @@ const todos = [
 
 //NOTE 13/4 LAST LESSON BEFORE BREAK
 
+// Write a function that takes a number from (1-12) and returns it's corresponding month
+
+// let month = {
+//     1: January,
+//     2: February,
+//     3: March,
+//     4: April,
+//     5: May,
+//     6: June,
+//     7: July,
+//     8: August,
+//     9: September,
+//     10: October,
+//     11: November,
+//     12: December
+// }
+
+// function nameOfMonth() {
+//     return month
+// }
+
+// console.log(nameofMonth(3))
+
+// function nameOfMonth(num) {
+//     let answer = ""
+//     switch (num) {
+//         case 1:
+//             console.log("January");
+//             break;
+//         case 2:
+//             console.log("February");
+//             break;
+//         case 3:
+//             console.log("March");
+//             break;
+//         case 4:
+//             console.log("April");
+//             break;
+//         case 5:
+//             console.log("May");
+//             break;
+//         case 6:
+//             console.log("June");
+//             break;
+//         case 7:
+//             console.log("July");
+//             break;
+//         case 8:
+//             console.log("August");
+//             break;
+//         case 9:
+//             console.log("September");
+//             break;
+//         case 10:
+//             console.log("October");
+//             break;
+//         case 11:
+//             console.log("November");
+//             break;
+//         case 12:
+//             console.log("December");
+//             break;
+//     }
+//     return answer;
+// }
+// nameOfMonth(1)
+
+// function nameOfMonth(num) {
+//     if (num === 1) {
+//     return "January"
+//     }
+//     if (num === 2) {
+//         return "February"
+//     }
+//     if (num === 3) {
+//         return "March"
+//     }if (num === 4) {
+//         return "April"
+//     }if (num === 5) {
+//         return "May"
+//     }if (num === 6) {
+//         return "June"
+//     }if (num === 7) {
+//         return "July"
+//     }if (num === 8) {
+//         return "August"
+//     }if (num === 9) {
+//         return "September"
+//     }if (num === 10) {
+//         return "October"
+//     }if (num === 11) {
+//         return "November"
+//     }if (num === 12) {
+//         return "December"
+//     }
+    
+// } 
+
+// console.log(nameOfMonth(3))
+
+// const birthday = new Date('August 19, 1975 23:15:30')
+// const day1 = birthday.getDay();
+
+// console.log(day1)
+
+// function getDay(day) {
+//     var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+//     var date = new Date(day)
+
+//     return days[date.getDay()]
+
+// }
+
+// console.log(getDay(7/6/2019))
 
 
+//create a function that returns true if the length of a string is even and false if the length of the string is odd
 
+// function isEven(str) {
+//     var len = string.length
+//     return  (len % 2 == Math.round(len/2))
+// }
 
+// console.log(isEven())
 
+//ES6
+// const isEven = (string) => string.length % 2 == 0
 
+//create a function takes 2 arguments first one is array second is string.
+//indexArray (["Ali", "Kahwaji", "NMIT", "Nelson"], "NMIT") -> 2
+
+// function getIndex (array, string) {
+//     return array.indexOf(string)
+
+// }
+
+// console.log(getIndex(["Q", "W", "R"], "W"))
+
+// //ES6
+// const getIndex = (array, string) => array.findIndex(val => val === string)
+
+//create a function that returns the total of all odd numbers
+//up to and incuding the number passes in as an parameter
+
+// var sum = 0;
+// for (var i = 1; i <= 5; i++) {
+//   if (i % 2 == 1)
+//     sum += i;
+// }
+// console.log(sum);
+
+// function oddNumbersSum(num) {
+//     let total = 0
+//     for (let i = 1; i <= num; i+2) {
+// total += i
+//     }
+// return total
+// }
+
+// console.log(oddNumbersSum(5))
+
+//Create a function that takes an array of strings and numbers and filter out the array so it returns only an array of numbers
+
+//example: onlyNumber (["Ali", 7010, "Kahwaji", 2022]) -> [7010, 2022]
+
+function onlyNumbers(arr) {
+    return arr.filter(val => Number.isInteger)
+}
 
 
   
