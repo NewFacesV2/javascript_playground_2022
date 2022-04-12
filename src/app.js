@@ -312,7 +312,7 @@ const todos = [
 // function function1(num1) {
 //     return num1 % 2
 
-//NOTE even or odd?
+//NOTEeven or odd?
 
 //  function evenOrOdd(num) {
 //      if (num % 2 === 0) {
@@ -323,7 +323,9 @@ const todos = [
 
 // }
 
-// console.log(evenOrOdd())
+//  console.log(evenOrOdd())
+
+// //NOTE Logic gates (and, or, not)
 
 // function and(a, b) {                    //and
 //     if(a && b) {
@@ -352,6 +354,8 @@ const todos = [
 
 // console.log(not(0))
     
+
+//NOTE 13/4 LAST LESSON BEFORE BREAK
 
 
 
