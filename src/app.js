@@ -214,7 +214,7 @@ const todos = [
     
 //   }
 
-//   function addNumbs(num1 = 2, num2 = 2) {   //Basic function adding 2 numbers and returning the total to addnumbs. then when we console log addnumbs, we get the stored returned value
+//   function addNumbs(num1 = 2, num2 = 2) {      //Basic function adding 2 numbers and returning the total to addnumbs. then when we console log addnumbs, we get the stored returned value
 // //       return num1 + num2;                  // You dont have to put numbers in the parameters for the function, but you can.
 // //                                           //If you just use num1, num2, you will have to put the numbers inside the console.log(addnumbs())
 // //   }
@@ -280,6 +280,82 @@ const todos = [
 // const date1 = new Date(05, 04, 1996)
 
 // console.log(date1)
+// console.log(date1.Year)
+// console.log(date1.Month)
+// console.log(date1.Day)
+
+//NOTE CODING PRACTICE STUDY GROUP
+
+//TODO 
+
+/* create a function that takes an array as a parameter ["1", "2", "3"] and return the array values all in number type */
+
+// function toNumbers(arr) {
+//     return typeof arr
+
+// }
+
+// console.log(parseInt(["1", "2", "3"]))
+
+// //rhyleis answer
+
+// const convert = (arr) => arr.map((elem) => parseInt(elem));
+// numbers = convert(["1", "2", "3"]);
+
+// numbers.forEach((elem) => {
+//     console.log(typeof elem);
+// })
+
+
+//Create a function that takes any argument and tells me whether the number is odd or even.
+
+// function function1(num1) {
+//     return num1 % 2
+
+//NOTE even or odd?
+
+//  function evenOrOdd(num) {
+//      if (num % 2 === 0) {
+//          return "even"
+// } else {
+//     return "odd"
+// }
+
+// }
+
+// console.log(evenOrOdd())
+
+// function and(a, b) {                    //and
+//     if(a && b) {
+//         return "true"
+//     } else {
+//         return "false"    
+// }
+// }
+
+// console.log(and(1,1))                   //or
+
+// function or(a,b) {
+//     return a || b
+// }
+
+// console.log(or(1,1))                    //not
+
+// function not(n) {
+//     if (n === 1) {
+//         return 0
+
+//     } else {
+//         return 1
+//     }
+// }
+
+// console.log(not(0))
+    
+
+
+
+
 
 
 
