@@ -522,11 +522,20 @@ const todos = [
 
 //example: onlyNumber (["Ali", 7010, "Kahwaji", 2022]) -> [7010, 2022]
 
-function onlyNumbers(arr) {
-    return arr.filter(val => Number.isInteger)
-}
+// function onlyNumbers(arr) {
+//     return arr.filter(val => Number.isInteger(val))
+// }
 
+// console.log(onlyNumbers(["iain", 1, 2, 3]))
 
+//create a function that a number as an argument, increment the number by 1 and return the result
+
+// function addByOne(num) {
+//     return num + 1
+// }
+
+// console.log(addByOne(1)) // -> 2
+ 
   
 
 
