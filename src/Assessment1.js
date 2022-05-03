@@ -45,7 +45,7 @@ class MyDate {    //I have created a class to store all of my code. This class i
   
   */
   print() {
-    return `The date is ${this.date}/${this.month}/${this.year}.\nThe date is ${
+    return `The date is ${this.month}/${this.date}/${this.year}.\nThe date is ${
       this.monthNames[this.month - 1]
     } ${this.date} ${this.year}.\nThe date is ${this.date} ${
       this.monthNames[this.month - 1]
@@ -97,9 +97,9 @@ class MyDate {    //I have created a class to store all of my code. This class i
 // date1.increment();
 // // console.log(date1.print());
 
-// const date2 = new MyDate(4, 8, 2022);
-// date2.decrement();
-// console.log(date2.print());
+const date2 = new MyDate(1, 3, 2022);
+date2.decrement();
+console.log(date2.print());
 
 // const date3 = new MyDate(08, 3, 2022);
 // date3.decrement();
