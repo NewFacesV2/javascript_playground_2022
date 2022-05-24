@@ -2,9 +2,9 @@
   "name": "javascript_playground_2022",
   "version": "1.0.0",
   "description": "",
-  "main": "T2W1.js",
+  "main": "Minesweeper.js",
   "scripts": {
-    "dev": "nodemon ./src/T2W1.js",
+    "dev": "nodemon ./src/Minesweeper.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

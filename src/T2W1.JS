@@ -77,7 +77,7 @@ function arrayManip(arr, str) {
 
 // console.log(nestedArrays([1, 2, 3]))
 
-const nestedArrays = arr => arr.flat(infinity).Length
+const nestedArrays = arr => arr.flat(Infinity).Length
 
 
 
